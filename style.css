@@ -1,0 +1,122 @@
+@import "https://unpkg.com/open-props/src/style.css ";
+
+@import "https://unpkg.com/open-props/src/style.css ";
+
+/* Estilizando o corpo da página */
+body {
+    font-family: 'Arial', sans-serif; /* Fonte padrão */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    display: flex; /* Usando flexbox para layout */
+    flex-direction: column; /* Disposição em coluna */
+    align-items: center; /* Centraliza o conteúdo */
+    /* Usando gradientes para o fundo */
+    background: linear-gradient(135deg, rgba(255, 203, 204, 0.5), rgba(201, 222, 255, 0.5)),
+                linear-gradient(45deg, rgba(255, 203, 204, 0.3), rgba(201, 222, 255, 0.3));
+    background-blend-mode: overlay; /* Mistura os gradientes */
+    background-attachment: fixed; /* Fundo fixo durante rolagem */
+    color: var(--color-dark, #333); /* Cor do texto usando variável */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: linear-gradient(135deg, var(--color-primary, #007bff), var(--color-secondary, #28a745)); /* Gradiente de fundo */
+    color: white; /* Cor do texto */
+    padding: 20px; /* Preenchimento interno */
+    text-align: center; /* Centraliza texto */
+    border-radius: 0 0 20px 20px; /* Cantos arredondados */
+}
+
+/* Estilo das seções de conteúdo */
+.content, .materials, .submit-material, .cta {
+    margin: 20px; /* Margem externa */
+    padding: 20px; /* Preenchimento interno */
+    border-radius: 10px; /* Cantos arredondados */
+    background: white; /* Fundo branco */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra para profundidade */
+    transition: transform 0.3s; /* Transição suave para transformações */
+}
+
+/* Efeito de hover nas seções */
+.content:hover, .materials:hover, .submit-material:hover, .cta:hover {
+    transform: translateY(-2px); /* Eleva a seção levemente */
+}
+
+/* Estilo dos títulos */
+h2 {
+    color: var(--color-primary, #007bff); /* Cor do título usando variável */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra no texto */
+}
+
+/* Estilo dos botões */
+button {
+    background: var(--color-secondary, #28a745); /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove borda padrão */
+    padding: 10px 20px; /* Preenchimento interno */
+    cursor: pointer; /* Cursor em forma de mão ao passar o mouse */
+    border-radius: 5px; /* Cantos arredondados */
+    transition: background 0.3s, transform 0.2s; /* Transições suaves para fundo e transformações */
+}
+
+/* Efeito de hover nos botões */
+button:hover {
+    background: var(--color-secondary-dark, #218838); /* Cor mais escura ao passar o mouse */
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho */
+}
+
+/* Estilo da lista de materiais */
+.materials ul {
+    list-style-type: none; /* Remove marcadores padrão */
+    padding: 0; /* Remove preenchimento padrão */
+}
+
+/* Estilo dos links na lista de materiais */
+.materials a {
+    color: var(--color-primary, #007bff); /* Cor do link */
+    text-decoration: none; /* Remove sublinhado padrão */
+    font-weight: bold; /* Texto em negrito */
+    padding: 5px; /* Preenchimento interno */
+    transition: color 0.3s, background 0.3s; /* Transições suaves para cor e fundo */
+}
+
+/* Efeito de hover nos links */
+.materials a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    color: var(--color-secondary, #28a745); /* Cor do link ao passar o mouse */
+    background: rgba(0, 123, 255, 0.1); /* Fundo sutil ao passar o mouse */
+    border-radius: 5px; /* Cantos arredondados no fundo */
+}
+
+/* Estilo do formulário */
+form {
+    display: flex; /* Usando flexbox */
+    flex-direction: column; /* Disposição em coluna */
+}
+
+/* Estilo dos campos de entrada do formulário */
+form input {
+    margin: 10px 0; /* Margens entre os campos */
+    padding: 10px; /* Preenchimento interno */
+    border: 1px solid var(--color-light, #ccc); /* Borda leve */
+    border-radius: 5px; /* Cantos arredondados */
+}
+
+/* Estilo para destacar texto */
+.highlight {
+    color: var(--color-secondary, #28a745); /* Cor de destaque */
+    font-weight: bold; /* Texto em negrito */
+    background: rgba(40, 167, 69, 0.1); /* Fundo sutil */
+    padding: 2px 4px; /* Preenchimento interno */
+    border-radius: 3px; /* Cantos arredondados */
+}
+
+/* Estilo do rodapé */
+footer {
+    margin-top: auto; /* Empurra o rodapé para o fim da página */
+    padding: 10px; /* Preenchimento interno */
+    background: var(--color-primary, #007bff); /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto */
+    width: 100%; /* Largura total */
+    text-align: center; /* Centraliza texto */
+}

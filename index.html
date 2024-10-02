@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/open-props">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header>
+        <h1>Portal Educacional</h1>
+        <p>Compartilhe e descubra materiais de estudo.</p>
+        <button onclick="scrollToMaterials()">Explore os Materiais</button>
+    </header>
+    
+    <section class="content">
+        <h2>O que é nosso Portal?</h2>
+        <p>Uma plataforma onde qualquer um pode adicionar links para <span class="highlight">materiais educativos</span> e acessá-los <span class="highlight">gratuitamente</span>.</p>
+    </section>
+
+    <section class="materials" id="materials">
+        <h2>Materiais Disponíveis</h2>
+        <ul id="materialList">
+            <li><a href="https://www.alura.com.br/formacao-programacao?srsltid=AfmBOorvGkoHCOYHx39q6bgHcECbkfoXVkMgvnvNKnGt5WFIjPT1rGZs">Curso de Programação Básica</a></li>
+            <li><a href="https://www.des1gnon.com/design/tutorial/">Tutoriais de Design Gráfico</a></li>
+            <li><a href="https://sebrae.com.br/Sebrae/Portal%20Sebrae/UFs/PE/Anexos/guia_completo_sobre_marketing_digital.pdf">Guias de Marketing Digital</a></li>
+        </ul>
+    </section>
+
+    <section class="submit-material">
+        <h2>Adicione um Material</h2>
+        <form id="materialForm">
+            <input type="text" id="materialTitle" placeholder="Título do Material" required>
+            <input type="url" id="materialURL" placeholder="URL do Material" required>
+            <button type="submit">Adicionar</button>
+        </form>
+    </section>
+
+    <section class="cta">
+        <h2>Contribua com o Portal!</h2>
+        <p>Ajude outros estudantes a encontrar materiais úteis!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Portal Educacional</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
