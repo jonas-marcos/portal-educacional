@@ -1,4 +1,5 @@
 # Portal Educacional
+### Equipe : Jonas, Victor e Wellington.
 
 ## Descrição
 O objetivo deste mini projeto é criar um Portal Educacional onde os usuários possam compartilhar e acessar materiais de estudo. O portal permite que os usuários adicionem links para cursos e tutoriais, que são salvos no Local Storage, possibilitando que esses materiais sejam carregados e exibidos sempre que a página for acessada.
