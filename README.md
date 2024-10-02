@@ -17,10 +17,7 @@ O objetivo é fornecer uma plataforma simples onde qualquer um pode adicionar li
 
 ## Passo a Passo para o Desenvolvimento
   1. Crie uma nova pasta para o projeto, por exemplo, portal-educacional.
-  2. Dentro dessa pasta, crie os seguintes arquivos:
-  index.html
-  style.css
-  script.js
+  2. Dentro dessa pasta, crie os seguintes arquivos: index.html , style.css e script.js
   3. Abra o arquivo index.html e insira a estrutura do HTML.
   4. Abra o arquivo style.css e insira a estrutura do CSS.
   5. Abra o arquivo script.js e insira a estrutura do JAVASCRIPT.
