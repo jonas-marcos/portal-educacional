@@ -10,6 +10,7 @@ O objetivo é fornecer uma plataforma simples onde qualquer um pode adicionar li
 - **HTML**: Estrutura da página.
 - **CSS**: Estilização usando Open Props.
 - **JavaScript**: Interatividade e manipulação do Local Storage.
+- **OPEN PROPS**: Estilização das variáveis CSS.
 
 ## Softwares Necessários
 - **Editor de Código**: Recomenda-se o Visual Studio Code, Acesse o site do Visual Studio Code e siga as instruções de instalação para o seu sistema operacional.
